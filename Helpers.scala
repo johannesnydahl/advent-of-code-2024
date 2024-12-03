@@ -1,4 +1,4 @@
 package adventofcode
 
-object Helpers:
-  val InputDir = "./inputs/"
+object helpers:
+  val InputDir = "./inputs/" 

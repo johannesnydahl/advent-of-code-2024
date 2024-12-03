@@ -1,10 +1,10 @@
 package adventofcode
-
 import scala.io.Source.*
 
-val inputPath = Helpers.InputDir + "1.txt"
 
-@main def main() = 
+@main def day1() = 
+  val inputPath = helpers.InputDir + "1.txt"
+
   println("Part 1: " + 
     fromFile(inputPath, "UTF-8")
     .getLines.toSeq
